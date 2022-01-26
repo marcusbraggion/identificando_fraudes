@@ -5,7 +5,7 @@
 # IeeeCISFraudDetection Competition
 In this project i'm trying to predicting the probability that an online transaction is fraudulent, as denoted by the binary target isFraud.
 
-# Business Problem
+# 1.0 Business Problem
 
 Imagine standing at the check-out counter at the grocery store with a long line behind you and the cashier not-so-quietly announces that your card has been declined. In this moment, you probably aren’t thinking about the data science that determined your fate.
 
@@ -19,7 +19,7 @@ In this competition, you’ll benchmark machine learning models on a challenging
 
 If successful, you’ll improve the efficacy of fraudulent transaction alerts for millions of people around the world, helping hundreds of thousands of businesses reduce their fraud loss and increase their revenue. And of course, you will save party people just like you the hassle of false positives.
 
-# Business Assumptions
+# 2.0 Business Assumptions
 
 In this competition you are predicting the probability that an online transaction is fraudulent, as denoted by the binary target isFraud.
 
@@ -49,4 +49,26 @@ id_12 - id_38
 
 The TransactionDT feature is a timedelta from a given reference datetime (not an actual timestamp).
 
-https://www.kaggle.com/c/ieee-fraud-detection/overview
+# 3.0 Solution Strategy
+
+**Step 01:**: Data Collection
+
+**Step 02:** Data Description
+
+**Step 03:** Feature Engineering
+
+**Step 04:** Exploratory Data Analysis
+
+**Step 05:** Data Preparation
+
+**Step 06:** Feature Selection
+
+**Step 07:** ML Modeling
+
+**Step 08:** Hyperparameters Fine Tuning
+
+**Step 09:** Interpretação e Tradução do Erro
+
+**Step 10:** Deploy Model to Production
+
+# 4.0 Lessons Learned

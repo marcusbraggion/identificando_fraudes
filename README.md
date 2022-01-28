@@ -2,26 +2,27 @@
 ![1_xSqK9iS7nZAaB-Sdwiwjow](https://user-images.githubusercontent.com/97288194/150184248-349f43ea-c929-416d-8a2c-53b821eff9a6.png)
 ](url)
 
-# IeeeCISFraudDetection Competition
-In this project i'm trying to predicting the probability that an online transaction is fraudulent, as denoted by the binary target isFraud.
+# IeeeCISFraud Detection
 
-# 1.0 Business Problem
+# 1.0 Business Context (Fictitious)
+IEEE CIS is a company specialized in detecting fraud in financial transactions through mobile devices. The company has a service called “Blocker Fraud” with no guarantee of blocking fraudulent transactions.
 
-Imagine standing at the check-out counter at the grocery store with a long line behind you and the cashier not-so-quietly announces that your card has been declined. In this moment, you probably aren’t thinking about the data science that determined your fate.
+And the company's business model is of the service type with monetization made by the provider's performance, that is, the user pays a fixed fee on the success in the fraud detection of the customer's transactions.
 
-Embarrassed, and certain you have the funds to cover everything needed for an epic nacho party for 50 of your closest friends, you try your card again. Same result. As you step aside and allow the cashier to tend to the next customer, you receive a text message from your bank. “Press 1 if you really tried to spend $500 on cheddar cheese.”
+# 2.0 Business Problem
+## 2.1 What is the context?
+However, the IEEE CIS is in the expansion phase in Brazil and for customers more quickly,
 
-While perhaps cumbersome (and often embarrassing) in the moment, this fraud prevention system is actually saving consumers millions of dollars per year. Researchers from the IEEE Computational Intelligence Society (IEEE-CIS) want to improve this figure, while also improving the customer experience. With higher accuracy fraud detection, you can get on with your chips without the hassle.
+## 2.2 What is the cause?
+The CEO of IEEE CIS wants to improve the fraud detection rate and hire our expert data science consultancy to solve this problem.
 
-IEEE-CIS works across a variety of AI and machine learning areas, including deep neural networks, fuzzy systems, evolutionary computation, and swarm intelligence. Today they’re partnering with the world’s leading payment service company, Vesta Corporation, seeking the best solutions for fraud prevention industry, and now you are invited to join the challenge.
+## 2.3 Who will lead the project?
+We need someone who really knows what the business problem is, because he's going to lead the solution. Therefore, he is our stakeholder.
 
-In this competition, you’ll benchmark machine learning models on a challenging large-scale dataset. The data comes from Vesta's real-world e-commerce transactions and contains a wide range of features from device type to product features. You also have the opportunity to create new features to improve your results.
-
-If successful, you’ll improve the efficacy of fraudulent transaction alerts for millions of people around the world, helping hundreds of thousands of businesses reduce their fraud loss and increase their revenue. And of course, you will save party people just like you the hassle of false positives.
+## 2.4 What will our solution look like?
+Predict the likelihood of an online transaction being fraudulent as indicated by the isFraud binary target using machine learning classification techniques.
 
 # 2.0 Business Assumptions
-
-In this competition you are predicting the probability that an online transaction is fraudulent, as denoted by the binary target isFraud.
 
 The data is broken into two files identity and transaction, which are joined by TransactionID. Not all transactions have corresponding identity information.
 
@@ -51,7 +52,7 @@ The TransactionDT feature is a timedelta from a given reference datetime (not an
 
 # 3.0 Solution Strategy
 
-**Step 01:**: Data Collection
+**Step 01:**: Data Collection: Data was collect from https://www.kaggle.com/c/ieee-fraud-detection/overview
 
 **Step 02:** Data Description
 
@@ -71,4 +72,4 @@ The TransactionDT feature is a timedelta from a given reference datetime (not an
 
 **Step 10:** Deploy Model to Production
 
-# 4.0 Lessons Learned
+# 4.0 Future Works and Learned Lessons
